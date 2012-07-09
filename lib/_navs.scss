@@ -63,7 +63,7 @@
   padding: 3px 15px;
 }
 .nav-list > .active > a,
-.nav-list > .active > a:hover {
+.nav-list > .active > a:hover, .nav-list > .active > a:visited  {
   color: $white;
   text-shadow: 0 -1px 0 rgba(0,0,0,.2);
   background-color: $linkColor;
@@ -122,7 +122,7 @@
 }
 // Active state, and it's :hover to override normal :hover
 .nav-tabs > .active > a,
-.nav-tabs > .active > a:hover {
+.nav-tabs > .active > a:hover, .nav-tabs > .active > a:visited {
   color: $gray;
   background-color: $white;
   border: 1px solid #ddd;
@@ -145,7 +145,7 @@
 
 // Active state
 .nav-pills > .active > a,
-.nav-pills > .active > a:hover {
+.nav-pills > .active > a:hover, .nav-pills > .active > a:visited {
   color: $white;
   background-color: $linkColor;
 }

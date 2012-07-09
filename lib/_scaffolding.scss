@@ -24,8 +24,14 @@ body {
 a {
   color: $linkColor;
   text-decoration: none;
+  &:visited{
+    color: $linkVisited;
+  }
+  &:hover {
+    color: $linkColorHover;
+    text-decoration: underline;
+  }
 }
-a:hover {
-  color: $linkColorHover;
-  text-decoration: underline;
-}
+
+
+
