@@ -8,6 +8,8 @@
 //  - replace font definition with mixin
 
 // Inline and block code styles
+
+@mixin bootstrapCode{
 code,
 pre {
   padding: 0 3px 2px;
@@ -42,7 +44,7 @@ pre {
   @include border-radius(4px);
 
   // Make prettyprint styles more spaced out for readability
-  &.prettyprint {
+  &.pre-prettyprint {
     margin-bottom: $baseLineHeight;
   }
 
@@ -59,4 +61,6 @@ pre {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
+}
+
 }

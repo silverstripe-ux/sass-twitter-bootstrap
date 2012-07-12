@@ -4,23 +4,26 @@
 // Updates for SASS:
 //  - none!
 
-// Quick floats
-.pull-right {
-  float: right;
-}
-.pull-left {
-  float: left;
-}
+@mixin bootstrapUtilities{
 
-// Toggling content
-.hide {
-  display: none;
-}
-.show {
-  display: block;
-}
+	// Quick floats
+	.pull-right {
+	  float: right;
+	}
+	.pull-left {
+	  float: left;
+	}
 
-// Visibility
-.invisible {
-  visibility: hidden;
+	// Toggling content
+	.hide {
+	  display: none;
+	}
+	.show {
+	  display: block;
+	}
+
+	// Visibility
+	.invisible {
+	  visibility: hidden;
+	}
 }
