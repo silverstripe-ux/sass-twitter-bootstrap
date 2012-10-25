@@ -8,9 +8,10 @@ To get started -- checkout http://twitter.github.com/bootstrap!
 
 Usage
 -----
-This module is required to work with the scss in the ssexpress theme. 
-    1. Clone this repo and rename to module_bootstrap   
-    2. Place directly in your themes folder (i.e. outside your ssexpress theme directory).
+This module is required to work with the scss in the ssexpress theme.
++ Clone this repo and rename to module_bootstrap
++ Place directly in your themes folder (i.e. outside your ssexpress theme directory).  
+
 
 
 Basic modification
