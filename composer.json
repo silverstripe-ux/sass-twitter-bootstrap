@@ -1,0 +1,9 @@
+{
+	"name": "silverstripe-themes/module_bootstrap",
+	"description": "CSS toolkit by Twitter.",
+	"type": "silverstripe-theme",
+	"require": {
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.0"
+	}
+}
