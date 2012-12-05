@@ -5,5 +5,11 @@
 	"require": {
 		"composer/installers": "*",
 		"silverstripe/framework": ">=3.0"
+	},
+	"version": "0.1-dev",
+	"extra": {
+		"branch-alias": {
+			"dev-ssexpress": "0.1-dev"
+		}
 	}
 }
