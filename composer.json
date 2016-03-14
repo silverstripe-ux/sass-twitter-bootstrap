@@ -6,7 +6,7 @@
 		"composer/installers": "*",
 		"silverstripe/framework": ">=3.0"
 	},
-	"version": "3.0.0-wip",
+	"version": "3.3.6-wip",
 	"extra": {
 		"branch-alias": {
 			"dev-ssexpress": "0.1-dev"
