@@ -4,7 +4,7 @@
 	"type": "silverstripe-theme",
 	"require": {
 		"composer/installers": "*",
-		"silverstripe/framework": ">=3.0"
+		"silverstripe/framework": "^3.0"
 	},
 	"version": "3.0.0-wip",
 	"extra": {
